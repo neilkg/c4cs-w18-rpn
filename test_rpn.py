@@ -19,4 +19,11 @@ class TestBasics(unittest.TestCase):
     def test_exponent(self):
 	result = rpn.calculate("3 3 ^")
 	self.assertEqual(9, result)
+    def test_exponent2(self):
+	result = rpn.calculate("2 3 ^")
+	self.assertEqual(8, result)
+    def test_exponent3(self):
+	result = rpn.calculate("4 1 ^")
+	self.assertEqual(4, result)
+
 
