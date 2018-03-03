@@ -1,4 +1,7 @@
 # c4cs-w18-rpn
 
-[![Travis[(https://img.sheilds.io/travis/neilkg/c4cs-w18-rpn.svg?style=flat-square)l()
-[![Coveralls github](https://img.sheilds.io/coveralls/github/neilkg/c4cs-w18-rpn,svg?style=flat-squarel()
+
+
+![Coveralls github](https://img.shields.io/coveralls/github/jekyll/jekyll.svg?style=flat-square)
+
+![Travis](https://img.shields.io/travis/neilkg/c4cs-w18-rpn.svg)
