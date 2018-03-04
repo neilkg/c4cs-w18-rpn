@@ -6,8 +6,7 @@ install:
 - pip install coverage
 - pip install nose
 script:
-- nosetests --with-coverage
-- unittest --with-coverage
+- make test
 after_success:
 - coveralls
 
