@@ -6,7 +6,7 @@ install:
 - pip install coverage
 - pip install nose
 script:
-- test --with-coverage
+- test_rpn.py --with-coverage
 after_success:
 - coveralls
 
