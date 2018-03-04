@@ -10,10 +10,6 @@ operators = {
     '/': operator.truediv,
     '^': operator.pow,
     '%': operator.mod,
-    '&': operator.concat,
-    '#': operator.floordiv,
-    '!': operator.lshift,
-    '@': operator.rshift,
 }
 
 def calculate(myarg):
