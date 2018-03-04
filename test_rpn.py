@@ -24,6 +24,10 @@ class TestBasics(unittest.TestCase):
         self.assertEqual(8, result)
     def test_exponent3(self):
         result = rpn.calculate("4 1 ^")
-        self.assertEqual(4, result)
-
-
+        self.assertEqual(4, result)        
+    def test_modulo(self):
+        result = rpn.calculate("2 1 %")
+        self.assertEqual(1, result)
+    def test_modulo2(self):
+        result = rpn.calculate("2 2 %")
+        self.assertEqual(0, result)
