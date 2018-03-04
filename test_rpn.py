@@ -26,7 +26,7 @@ class TestBasics(unittest.TestCase):
         result = rpn.calculate("4 1 ^")
         self.assertEqual(4, result)        
     def test_modulo(self):
-        result = rpn.calculate("2 1 %")
+        result = rpn.calculate("1 2 %")
         self.assertEqual(1, result)
     def test_modulo2(self):
         result = rpn.calculate("2 2 %")
