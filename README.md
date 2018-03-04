@@ -2,6 +2,6 @@
 
 
 
-![Coveralls github](https://img.shields.io/coveralls/neilkg/c4cs-w18-rpn.svg/github/jekyll/jekyll.svg?style=flat-square)
+[![Coverage Status](https://coveralls.io/repos/github/neilkg/c4cs-w18-rpn/badge.svg?branch=master)](https://coveralls.io/github/neilkg/c4cs-w18-rpn?branch=master)
 
 ![Travis](https://img.shields.io/travis/neilkg/c4cs-w18-rpn.svg)
