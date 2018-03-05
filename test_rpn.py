@@ -31,3 +31,6 @@ class TestBasics(unittest.TestCase):
     def test_modulo2(self):
         result = rpn.calculate("2 2 %")
         self.assertEqual(0, result)
+        
+if __name__ == '__main__':
+    unittest.main()
