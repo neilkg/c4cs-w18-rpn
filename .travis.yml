@@ -7,7 +7,6 @@ install:
 - pip install nose
 script:
 - nosetests --with-coverage --cover-erase test_rpn.py
- - make test
 after_success:
 - coveralls
 
