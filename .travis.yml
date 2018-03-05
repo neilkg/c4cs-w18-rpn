@@ -3,10 +3,9 @@ python:
 - "3.5"
 install:
 - pip install python-coveralls
-- pip install coverage
 - pip install nose
 script:
-- nosetests --with-coverage
+- test_rpn.py --with-coverage
 after_success:
 - coveralls
 
